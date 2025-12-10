@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer(){
     return (
-        <h3 className='flex justify-center'><b>&copy; 2025 samiksha satthy</b></h3>
+        <p className='flex justify-center text-transparent bg-clip-text bg-linear-to-r from-purple-800 to-purple-300 p-4'>&copy; 2025 made with ❤️ and coded by samiksha satthy</p>
     )
 }
 

@@ -1,4 +1,5 @@
 import SenseSecure from '../img/SenseSecure.png'
+import UniVerse from '../img/UniVerse.png'
 
 
 const projects = [
@@ -59,6 +60,19 @@ const projects = [
     skills: [
       "c#",
       "stm32",
+    ],
+    github: "https://github.com/samiksha-satthy/ece-198-SenseSecure"
+  },
+    {
+    id: 5,
+    image: UniVerse,
+    alt: "picture of universe project",
+    name: "UniVerse",
+    description: "Developed an interactive map application using the JXMapViewer API to help prospective students explore over 10 universities in Ontario. The application integrates program offerings, university descriptions, and direct website links, enhancing accessibility and decision-making.",
+    skills: [
+      "Java",
+      "JXMapViewer API",
+      "Web Scraping"
     ],
     github: "https://github.com/samiksha-satthy/ece-198-SenseSecure"
   },

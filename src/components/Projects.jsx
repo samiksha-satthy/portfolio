@@ -1,6 +1,7 @@
 import React from "react";
-import projects from "../assets/projects/projects";
+import projects from "../assets/arrays/projects";
 import popOut from "../assets/img/popOut.png";
+import { FaGithub } from "react-icons/fa";
 
 function Project(props) {
   return (
@@ -11,24 +12,19 @@ function Project(props) {
         alt={props.alt}
       />
       <div className="flex flex-col justify-start gap-8 hover:shadow-2xl h-full">
-        <div className="flex gap-20 place-content-between">
+        <div className="flex gap-20 place-content-between justify-between items-center">
           <h1 className="text-transparent bg-clip-text bg-linear-to-r from-purple-800 to-purple-300 p-4">
             <b>{props.name}</b>
           </h1>
-          <a className="w-16 h-16 self-center" href={props.github} target="__blank">
-            <img
-              
-              src={popOut}
-              alt="external link"
-              
-            />
+          <a className="w-16 h-16 self-center hover:opacity-35" href={props.github} target="__blank">
+            <FaGithub size={50} color="white"/>
           </a>
         </div>
 
-        <h2 className="text-transparent bg-clip-text bg-linear-to-r from-purple-800 to-purple-300 p-4">
+        <h3 className="text-white pl-4">
           {props.description}
-        </h2>
-        <div className="flex flex-wrap gap-2 justify-center">
+        </h3>
+        <div className="flex flex-wrap gap-2 justify-center p-4">
           {props.skills.map((skill) => (
             <p className="px-3 py-1 font-bold rounded-full border border-purple-300 text-transparent bg-linear-to-r from-[#e59cff] via-[#ba9cff] to-[#9cb2ff] bg-clip-text backdrop-blur-md shadow-[inset_0_-7px_11px_#a48fff1f] transition duration-300 ease-in-out hover:shadow-[0_0_20px_#d498fb] hover:border-[#d498fb]">
               {skill}
@@ -47,7 +43,7 @@ function Projects() {
       <h1 className="text-transparent bg-clip-text bg-linear-to-r from-purple-800 to-purple-300 p-4">
         <b>Projects</b>
       </h1>
-      <div className="grid grid-cols-3 gap-4">
+      <div className="lg:grid lg:grid-cols-3 gap-4 flex flex-wrap">
         {projects.map((project) => (
           <Project
             key={project.id}
