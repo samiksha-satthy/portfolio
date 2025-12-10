@@ -5,7 +5,7 @@ function About(){
 
 
     return (
-        <div className='flex gap-20 h-screen w-full items-center justify-center'>
+        <div className='flex gap-20 h-screen w-full items-center justify-center' id="about">
             <div className='flex flex-col gap-20 justify-center items-center'>
                 <h1 className='text-transparent bg-clip-text bg-linear-to-r from-purple-800 to-purple-300 p-4'><b>About Me</b></h1>
                 <p className='text-black w-100'>im a computer engineering studentim a computer engineering studentim a computer engineering studentim a computer engineering studentim a computer engineering studentim a computer engineering studentim a computer engineering student</p> 

@@ -43,7 +43,7 @@ function Project(props) {
 function Projects() {
   console.log(projects);
   return (
-    <div className="flex flex-col h-auto w-full justify-center items-center gap-5">
+    <div className="flex flex-col h-auto w-full justify-center items-center gap-5 p-30">
       <h1 className="text-transparent bg-clip-text bg-linear-to-r from-purple-800 to-purple-300 p-4">
         <b>Projects</b>
       </h1>
