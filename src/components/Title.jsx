@@ -6,7 +6,7 @@ import Contact from "./Contact";
 function Title() {
   return (
     <div
-      className="flex flex-col gap-12 items-center justify-center h-screen w-full"
+      className="flex flex-col gap-12 items-center justify-center h-screen lg:w-full"
       id="title"
     >
       <div className="flex flex-col items-center">

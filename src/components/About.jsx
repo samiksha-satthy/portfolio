@@ -4,7 +4,7 @@ import headshot from "../assets/img/headshot.JPG";
 function About() {
   return (
     <div
-      className="flex flex-col lg:flex-row gap-20 h-screen w-full items-center justify-center"
+      className="flex flex-col m-4 sm:flex-wrap lg:flex-row gap-20 h-screen w-full items-center justify-center"
       id="about"
     >
       <div className="flex flex-col gap-10">

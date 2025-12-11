@@ -12,7 +12,7 @@ function Project(props) {
         alt={props.alt}
       />
       <div className="flex flex-col justify-start gap-8 hover:shadow-2xl h-full">
-        <div className="flex gap-20 place-content-between justify-between items-center">
+        <div className="flex lg:gap-20 place-content-between lg:justify-between items-center">
           <h1 className="text-transparent bg-clip-text bg-linear-to-r from-purple-800 to-purple-300 p-4">
             <b>{props.name}</b>
           </h1>
@@ -43,7 +43,7 @@ function Projects() {
       <h1 className="text-transparent bg-clip-text bg-linear-to-r from-purple-800 to-purple-300 p-4">
         <b>Projects</b>
       </h1>
-      <div className="lg:grid lg:grid-cols-3 lg:w-full gap-4 flex flex-wrap w-125">
+      <div className="lg:grid lg:grid-cols-3 lg:w-full gap-4 flex flex-wrap w-110">
         {projects.map((project) => (
           <Project
             key={project.id}
