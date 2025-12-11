@@ -1,5 +1,7 @@
 import SenseSecure from '../img/SenseSecure.png'
 import UniVerse from '../img/UniVerse.png'
+import Bohnanza from '../img/Bohnanza.png'
+import Population from '../img/Population.png'
 
 
 const projects = [
@@ -18,6 +20,20 @@ const projects = [
       "CLIP",
     ],
     github: "https://github.com/samiksha-satthy/Fitspiration"
+  },
+    {
+    id: 11,
+    image: Population,
+    alt: "picture of canada population simulator project",
+    name: "Canada Population Simulator",
+    description: "A dynamic Canada Population Simulation tool that has map-based visualizations to help users track national growth trends",
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "D3.js",
+    ],
+    github: "https://github.com/shaivisahni/population-simulator/tree/main"
   },
   {
     id: 2,
@@ -74,7 +90,18 @@ const projects = [
       "JXMapViewer API",
       "Web Scraping"
     ],
-    github: "https://github.com/samiksha-satthy/ece-198-SenseSecure"
+    github: "https://github.com/samiksha-satthy/UniVerse"
+  },
+      {
+    id: 6,
+    image: Bohnanza,
+    alt: "picture of bohnanza project",
+    name: "Bohnanza",
+    description: "Developed the Bohnanza game with an opponent.",
+    skills: [
+      "Java",
+    ],
+    github: "https://github.com/samiksha-satthy/Bohnanza/tree/master"
   },
 ];
 

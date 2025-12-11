@@ -7,7 +7,7 @@ function Project(props) {
   return (
     <div className="flex flex-col px-2 pt-2 mx-4 group h-full min-h-[400px] bg-card rounded-xl overflow-hidden shadow-md bg-[#1d1836]/90 backdrop-blur-md transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:border-[#8c52ff] border border-white/10">
       <img
-        className="border-indigo-500"
+        className="border-indigo-500 h-80"
         src={props.image}
         alt={props.alt}
       />
