@@ -17,6 +17,10 @@ function NavLink(props) {
   );
 }
 
+function MobileNav(){
+  
+}
+
 function NavBar() {
   return (
     <nav className=" flex-row flex-wrap fixed z-10 top-0 bg-linear-to-r from-[#e59cff] via-[#ba9cff] to-[#9cb2ff] bg-clip-text backdrop-blur-md shadow-[inset_0_-7px_11px_#a48fff1f] transition duration-300 ease-in-out opacity-50 w-full inline-flex justify-between items-center">
