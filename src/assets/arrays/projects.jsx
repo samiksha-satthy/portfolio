@@ -2,6 +2,7 @@ import SenseSecure from '../img/SenseSecure.png'
 import UniVerse from '../img/UniVerse.png'
 import Bohnanza from '../img/Bohnanza.png'
 import Population from '../img/Population.png'
+import elevateHER from '../img/elevateHER.png'
 
 
 const projects = [
@@ -53,7 +54,7 @@ const projects = [
   },
   {
     id: 3,
-    image: "",
+    image: elevateHER,
     alt: "picture of elevateHER project",
     name: "elevateHER",
     description: "this project is about mentor-mentee matchmaking.",
