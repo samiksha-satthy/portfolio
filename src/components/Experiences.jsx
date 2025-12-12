@@ -21,7 +21,7 @@ function Experience(props) {
 function Experiences() {
     console.log(experiences)
   return (
-    <div className="flex flex-col gap-10 items-center h-auto">
+    <div className="flex flex-col gap-10 items-center h-auto py-30">
       <h1 className="font-bold text-transparent bg-clip-text bg-linear-to-r from-purple-800 to-purple-300">Experiences</h1>
       {experiences.map(experience => {
         return <Experience key={experience.id} img={experience.image} title={experience.title} info={experience.extra} points={experience.points}/>

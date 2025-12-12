@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 
 function Project(props) {
   return (
-    <div className="flex flex-col px-2 pt-2 mx-4 group h-full min-h-[400px] bg-card rounded-xl overflow-hidden shadow-md bg-[#1d1836]/90 backdrop-blur-md transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:border-[#8c52ff] border border-white/10">
+    <div className="flex flex-col pt-2 group h-full min-h-[400px] bg-card rounded-xl overflow-hidden shadow-md bg-[#1d1836]/90 backdrop-blur-md transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:border-[#8c52ff] border border-white/10">
       <img
         className="border-indigo-500 h-80 pb-4"
         src={props.image}
@@ -38,11 +38,11 @@ function Project(props) {
 function Projects() {
   console.log(projects);
   return (
-    <div className="flex flex-col h-auto justify-center items-center gap-5 p-30">
+    <div className="flex flex-col h-auto justify-center items-center gap-5 py-30 px-15">
       <h1 className="text-transparent bg-clip-text bg-linear-to-r from-purple-800 to-purple-300 p-4">
         <b>Projects</b>
       </h1>
-      <div className="lg:grid lg:grid-cols-3 lg:w-full gap-4 flex flex-wrap w-screen">
+      <div className="lg:grid lg:grid-cols-3 w-full flex flex-wrap gap-10 m-8">
         {projects.map((project) => (
           <Project
             key={project.id}
