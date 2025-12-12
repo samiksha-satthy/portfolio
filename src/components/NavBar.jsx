@@ -18,12 +18,19 @@ function NavLink(props) {
 }
 
 function MobileNav(){
-  
+    console.log("hello")
+  return (
+    <div className="w-screen h-screen flex flex-col justify-center bg-amber-200">
+        <NavLink section="about" title="About" />
+        <NavLink section="projects" title="Projects" />
+        <NavLink section="experiences" title="Experiences" />
+    </div>
+  )
 }
 
 function NavBar() {
   return (
-    <nav className=" flex-row flex-wrap fixed z-10 top-0 bg-linear-to-r from-[#e59cff] via-[#ba9cff] to-[#9cb2ff] bg-clip-text backdrop-blur-md shadow-[inset_0_-7px_11px_#a48fff1f] transition duration-300 ease-in-out opacity-50 w-full inline-flex justify-between items-center">
+    <nav className="hidden lg:inline-flex flex-row flex-wrap fixed z-10 top-0 bg-linear-to-r from-[#e59cff] via-[#ba9cff] to-[#9cb2ff] bg-clip-text backdrop-blur-md shadow-[inset_0_-7px_11px_#a48fff1f] transition duration-300 ease-in-out opacity-50 w-full justify-between items-center">
       <Link
         to="title"
         smooth={true}
@@ -35,7 +42,7 @@ function NavBar() {
         </h3>
       </Link>
 
-      <div className="hidden md:flex flex-row gap-10 m-4 justify-center items-center border-2 rounded-xl px-4">
+      <div className="flex flex-row gap-10 m-4 justify-center items-center border-2 rounded-xl px-4">
         <NavLink section="about" title="About" />
         <NavLink section="projects" title="Projects" />
         <NavLink section="experiences" title="Experiences" />
@@ -45,6 +52,9 @@ function NavBar() {
         <button
           id="menu-button"
           className="text-white hover:text-gray-300 focus:outline-none"
+          onClick={() => {
+            MobileNav()
+          }}
         >
           <svg
             className="w-6 h-6"

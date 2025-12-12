@@ -6,15 +6,15 @@ import Contact from "./Contact";
 function Title() {
   return (
     <div
-      className="flex flex-col gap-12 items-center justify-center h-screen lg:w-full"
+      className="flex flex-col min-h-svh lg:h-screen justify-center items-center gap-20"
       id="title"
     >
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col lg:items-center text-center">
         <h1 className="text-white">Hello, I'm</h1>
-        <h1 className="text-transparent bg-clip-text bg-linear-to-r from-purple-800 to-purple-300 p-4">
+        <h1 className="text-transparent bg-clip-text bg-linear-to-r from-purple-800 to-purple-300 py-4 lg:p-4">
           <b>Samiksha Satthy</b>
         </h1>
-        <h2 className="font-bold">Computer Engineering @ UWaterloo</h2>
+        <h2 className="lg:font-bold">Computer Engineering @ UWaterloo</h2>
       </div>
 
       <Link

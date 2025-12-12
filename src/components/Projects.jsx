@@ -1,22 +1,21 @@
 import React from "react";
 import projects from "../assets/arrays/projects";
-import popOut from "../assets/img/popOut.png";
 import { FaGithub } from "react-icons/fa";
 
 function Project(props) {
   return (
     <div className="flex flex-col px-2 pt-2 mx-4 group h-full min-h-[400px] bg-card rounded-xl overflow-hidden shadow-md bg-[#1d1836]/90 backdrop-blur-md transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:border-[#8c52ff] border border-white/10">
       <img
-        className="border-indigo-500 h-80"
+        className="border-indigo-500 h-80 pb-4"
         src={props.image}
         alt={props.alt}
       />
       <div className="flex flex-col justify-start gap-8 hover:shadow-2xl h-full">
-        <div className="flex lg:gap-20 place-content-between lg:justify-between items-center">
-          <h1 className="text-transparent bg-clip-text bg-linear-to-r from-purple-800 to-purple-300 p-4">
+        <div className="flex lg:justify-between items-center">
+          <h1 className="text-transparent bg-clip-text bg-linear-to-r from-purple-800 to-purple-300 ">
             <b>{props.name}</b>
           </h1>
-          <a className="w-16 h-16 self-center hover:opacity-35" href={props.github} target="__blank">
+          <a className="w-16 h-16 flex items-center justify-center hover:opacity-35 " href={props.github} target="__blank">
             <FaGithub size={50} color="white"/>
           </a>
         </div>
@@ -43,7 +42,7 @@ function Projects() {
       <h1 className="text-transparent bg-clip-text bg-linear-to-r from-purple-800 to-purple-300 p-4">
         <b>Projects</b>
       </h1>
-      <div className="lg:grid lg:grid-cols-3 lg:w-full gap-4 flex flex-wrap w-110">
+      <div className="lg:grid lg:grid-cols-3 lg:w-full gap-4 flex flex-wrap w-screen">
         {projects.map((project) => (
           <Project
             key={project.id}
