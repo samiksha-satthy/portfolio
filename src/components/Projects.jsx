@@ -38,11 +38,11 @@ function Project(props) {
 function Projects() {
   console.log(projects);
   return (
-    <div className="flex flex-col h-auto justify-center items-center gap-5 py-30 px-15">
+    <div className="flex flex-col h-auto justify-center items-center gap-5 py-30 lg:px-15 mx-6">
       <h1 className="text-transparent bg-clip-text bg-linear-to-r from-purple-800 to-purple-300 p-4">
         <b>Projects</b>
       </h1>
-      <div className="lg:grid lg:grid-cols-3 flex flex-wrap gap-10 m-8">
+      <div className="lg:grid lg:grid-cols-3 flex flex-col gap-10 md:m-8">
         {projects.map((project) => (
           <Project
             key={project.id}

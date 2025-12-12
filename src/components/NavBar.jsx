@@ -17,16 +17,6 @@ function NavLink(props) {
   );
 }
 
-function MobileNav(){
-    console.log("hello")
-  return (
-    <div className="w-screen h-screen flex flex-col justify-center bg-amber-200">
-        <NavLink section="about" title="About" />
-        <NavLink section="projects" title="Projects" />
-        <NavLink section="experiences" title="Experiences" />
-    </div>
-  )
-}
 
 function NavBar() {
   return (
@@ -48,30 +38,6 @@ function NavBar() {
         <NavLink section="experiences" title="Experiences" />
       </div>
 
-      <div className="md:hidden m-8">
-        <button
-          id="menu-button"
-          className="text-white hover:text-gray-300 focus:outline-none"
-          onClick={() => {
-            MobileNav()
-          }}
-        >
-          <svg
-            className="w-6 h-6"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M4 6h16M4 12h16M4 18h16"
-            ></path>
-          </svg>
-        </button>
-      </div>
 
       <div className="hidden md:flex"><Contact /></div>
       
