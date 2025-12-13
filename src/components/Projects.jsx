@@ -42,7 +42,7 @@ function Projects() {
       <h1 className="text-transparent bg-clip-text bg-linear-to-r from-purple-800 to-purple-300 p-4">
         <b>Projects</b>
       </h1>
-      <div className="lg:grid lg:grid-cols-3 flex flex-col gap-10 md:m-8">
+      <div className="lg:grid lg:grid-cols-3 flex flex-col gap-10 md:m-4 w-full">
         {projects.map((project) => (
           <Project
             key={project.id}

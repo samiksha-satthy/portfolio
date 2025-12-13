@@ -12,7 +12,7 @@ function About() {
         <h1 className="text-transparent bg-clip-text bg-linear-to-r from-purple-800 to-purple-300 p-4 text-center">
           <b>About Me</b>
         </h1>
-        <p className="text-white lg:w-125 text-center mx-4">
+        <p className="dark:text-white lg:w-125 text-center mx-4">
           Hello! 👋🏽 My name is Samiksha and I am a Computer Engineering Student
           at the University of Waterloo. I am dedicated to making a positive
           impact through the use of cutting-edge technology. Additionally, I am

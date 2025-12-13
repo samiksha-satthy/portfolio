@@ -10,7 +10,7 @@ function NavLink(props) {
       duration={500}
       className="cursor-pointer"
     >
-      <h3 className="text-white hover:underline text-lg hover:drop-shadow-[0_0_20px_#d498fb] hover:opacity-40 transition duration-300">
+      <h3 className="dark:text-white hover:underline text-lg hover:drop-shadow-[0_0_20px_#d498fb] hover:opacity-40 transition duration-300">
         {props.title}
       </h3>
     </Link>
@@ -27,7 +27,7 @@ function NavBar() {
         duration={500}
         className="cursor-pointer hover:opacity-80"
       >
-        <h3 className="z-20 font-bold m-4 text-white hover:opacity-50 hover:underline hover:drop-shadow-[0_0_20px_#d498fb] ">
+        <h3 className="z-20 font-bold m-4 dark:text-white hover:opacity-50 hover:underline hover:drop-shadow-[0_0_20px_#d498fb] ">
           samiksha satthy
         </h3>
       </Link>
