@@ -28,7 +28,7 @@ function NavBar() {
         className="cursor-pointer hover:opacity-80"
       >
         <h3 className="z-20 font-bold m-4 dark:text-white hover:opacity-50 hover:underline hover:drop-shadow-[0_0_20px_#d498fb] ">
-          samiksha satthy
+          samiksha s
         </h3>
       </Link>
 
