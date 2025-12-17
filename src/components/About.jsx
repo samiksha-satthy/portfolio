@@ -25,7 +25,7 @@ function About() {
         <Contact/>
       </div>
       <img
-        className="md:w-150 h-max w-100 mx-4 group bg-card rounded-xl overflow-hidden shadow-md bg-[#1d1836]/90 backdrop-blur-md transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:border-[#8c52ff] border border-white/10 "
+        className="md:w-150 h-max w-100 mx-4 group bg-card rounded-xl overflow-hidden shadow-md duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:border-[#8c52ff] border border-white/10 "
         src={headshot}
         alt="samiksha's headshot"
       />
