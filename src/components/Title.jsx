@@ -17,7 +17,7 @@ function Title() {
         </h1>
         <h2 className="lg:font-bold mb-7">Computer Engineering @ UWaterloo</h2>
         <a href="mailto:ssatthy@uwaterloo.ca" target="_blank">
-          <div className="inline-flex lg:flex flex-row justify-center items-center gap-5 border-3 rounded-2xl px-2 lg:px-8 border-purple-300 text-transparent bg-linear-to-r from-[#e59cff] via-[#ba9cff] to-[#9cb2ff] bg-clip-text backdrop-blur-md shadow-[inset_0_-7px_11px_#a48fff1f] transition duration-300 ease-in-out hover:shadow-[0_0_20px_#d498fb] hover:border-[#d498fb]">
+          <div className="inline-flex lg:flex flex-row justify-center items-center gap-5 border-3 rounded-2xl px-2 lg:px-8 border-purple-300 text-transparent bg-linear-to-r from-purple-800 to-purple-300 bg-clip-text backdrop-blur-md shadow-[inset_0_-7px_11px_#a48fff1f] transition duration-300 ease-in-out hover:shadow-[0_0_20px_#d498fb] hover:border-purple-300">
             <FaEnvelope size={24} className="text-center text-black dark:text-white m-0 p-0" />
             <h3 className="m-0 p-0">ssatthy@uwaterloo.ca</h3>
           </div>

@@ -25,7 +25,7 @@ function Project(props) {
         </h3>
         <div className="flex flex-wrap gap-2 justify-center p-4">
           {props.skills.map((skill) => (
-            <p className="px-3 py-1 font-bold rounded-full border border-purple-300 text-transparent bg-linear-to-r from-[#e59cff] via-[#ba9cff] to-[#9cb2ff] bg-clip-text backdrop-blur-md shadow-[inset_0_-7px_11px_#a48fff1f] transition duration-300 ease-in-out hover:shadow-[0_0_20px_#d498fb] hover:border-[#d498fb]">
+            <p className="px-3 py-1 font-bold rounded-full border border-purple-300 text-transparent bg-linear-to-r from-purple-800 to-purple-300 bg-clip-text backdrop-blur-md shadow-[inset_0_-7px_11px_#a48fff1f] transition duration-300 ease-in-out hover:shadow-[0_0_20px_#d498fb] hover:border-purple-200">
               {skill}
             </p>
           ))}

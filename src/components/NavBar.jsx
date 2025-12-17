@@ -20,7 +20,7 @@ function NavLink(props) {
 
 function NavBar() {
   return (
-    <nav className="hidden lg:inline-flex flex-row flex-wrap fixed z-10 top-0 bg-linear-to-r from-[#e59cff] via-[#ba9cff] to-[#9cb2ff] bg-clip-text backdrop-blur-md shadow-[inset_0_-7px_11px_#a48fff1f] transition duration-300 ease-in-out opacity-50 w-full justify-between items-center">
+    <nav className="hidden lg:inline-flex flex-row flex-wrap fixed z-10 top-0 bg-clip-text backdrop-blur-md transition duration-300 ease-in-out opacity-50 w-full justify-between items-center">
       <Link
         to="title"
         smooth={true}
