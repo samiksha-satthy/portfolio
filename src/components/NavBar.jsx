@@ -58,6 +58,7 @@ function NavBar() {
 
         <div className="hidden min-w-0 items-center gap-4 rounded-xl border border-white/20 px-4 py-2 sm:flex md:gap-6 lg:gap-8 lg:px-5">
           <NavLink section="about" title="About" />
+          <NavLink section="skills" title="Skills" />
           <NavLink section="projects" title="Projects" />
           <NavLink section="experiences" title="Experiences" />
         </div>
@@ -80,6 +81,7 @@ function NavBar() {
       {menuOpen && (
         <div className="mx-auto mt-3 flex max-w-7xl flex-col gap-4 rounded-2xl border border-white/10 bg-black/85 p-4 shadow-lg sm:hidden">
           <NavLink section="about" title="About" onClick={closeMenu} />
+          <NavLink section="skills" title="Skills" onClick={closeMenu} />
           <NavLink section="projects" title="Projects" onClick={closeMenu} />
           <NavLink section="experiences" title="Experiences" onClick={closeMenu} />
           <div className="border-t border-white/10 pt-2">

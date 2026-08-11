@@ -1,11 +1,11 @@
 import React from "react";
 import headshot from "../assets/img/headshot.JPG";
-import Contact from './Contact'
+import Contact from "./Contact";
 
 function About() {
   return (
     <div
-      className="flex flex-col mx-8 sm:flex-wrap lg:flex-row gap-20 items-center justify-center py-24"
+      className="flex flex-col mx-8 sm:flex-wrap lg:flex-row gap-20 items-center justify-center pt-24 pb-48"
       id="about"
     >
       <div className="flex flex-col gap-10">
@@ -13,16 +13,16 @@ function About() {
           <b>About Me</b>
         </h1>
         <p className="dark:text-white lg:w-125 text-center mx-4">
-          Hello! 👋🏽 My name is Samiksha and I am a Computer Engineering Student
-          at the University of Waterloo. I am dedicated to making a positive
-          impact through the use of cutting-edge technology. Additionally, I am
-          passionate about coding, hardware and robotics, and am on the journey
-          to expand my learning. My other interests lie in social advocacy,
-          business, and retail. Let's connect! I would be excited to talk with
-          fellow enthusiasts, professionals, and anyone who shares my passions.
-          📬
+          Hello! 👋🏽 My name is Samiksha and I am a 2nd year Computer Engineering
+          Student at the University of Waterloo. I am dedicated to making a
+          positive impact through the use of cutting-edge technology.
+          Additionally, I am passionate about coding, hardware and robotics, and
+          am on the journey to expand my learning. My other interests lie in
+          social advocacy, business, and retail. Let's connect! I would be
+          excited to talk with fellow enthusiasts, professionals, and anyone who
+          shares my passions. 📬
         </p>
-        <Contact/>
+        <Contact />
       </div>
       <img
         className="md:w-150 h-max w-100 mx-4 group bg-card rounded-xl overflow-hidden shadow-md duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:border-[#8c52ff] border border-white/10 "
