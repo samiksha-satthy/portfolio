@@ -43,7 +43,7 @@ function NavBar() {
 
   return (
     <nav className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-black/45 px-4 py-3 text-white backdrop-blur-md transition duration-300 ease-in-out sm:px-5 lg:px-10">
-      <div className="mx-auto flex max-w-7xl items-center justify-between gap-3">
+      <div className="flex w-full items-center justify-between gap-3">
         <Link
           to="title"
           smooth={true}
@@ -79,7 +79,7 @@ function NavBar() {
       </div>
 
       {menuOpen && (
-        <div className="mx-auto mt-3 flex max-w-7xl flex-col gap-4 rounded-2xl border border-white/10 bg-black/85 p-4 shadow-lg sm:hidden">
+        <div className="mt-3 flex flex-col gap-4 rounded-2xl border border-white/10 bg-black/85 p-4 shadow-lg sm:hidden">
           <NavLink section="about" title="About" onClick={closeMenu} />
           <NavLink section="skills" title="Skills" onClick={closeMenu} />
           <NavLink section="projects" title="Projects" onClick={closeMenu} />
